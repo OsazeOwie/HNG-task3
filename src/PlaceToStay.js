@@ -24,7 +24,7 @@ const PlaceToStay = () => {
         <div className=" mt-[127px] max  lg:px-24">
             <div className="px-10 lg:px-0">
                 <div className="flex gap-[65px] overflow-scroll lg:overflow-visible items-center lg:justify-start">
-                    <ul className="flex whitespace-nowrap cursor-pointer gap-[20px] md:gap-[40px] lg:text-[20px] justify-center">
+                    <ul className="flex whitespace-nowrap cursor-pointer gap-[20px] md:gap-[40px] lg:text-[17px] justify-center">
                         <li>Resturant</li>
                         <li>Cottage</li>
                         <li>Castle</li>
@@ -34,7 +34,7 @@ const PlaceToStay = () => {
                         <li>Off-grid</li>
                         <li>Farm</li>
                     </ul>
-                    <div className="flex justify-center gap-[20px] lg:gap-[40px] cursor-pointer border border-[#B4B4B4] rounded-lg py-[0.8125rem] px-[1.5rem] lg:px-[0.875rem] w-max">
+                    <div className="flex justify-center gap-[20px] lg:gap-[40px] cursor-pointer border border-[#B4B4B4] rounded-lg py-[0.8125rem] px-[1.5rem] lg:px-[1.1rem] w-max">
                         <div className="lg:text-[16px]">Location</div>
                         <img className="w-5 " src={filterSvg} alt="" />
                     </div>

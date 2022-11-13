@@ -23,8 +23,8 @@ const PlaceToStay = () => {
     return ( 
         <div className=" mt-[127px] max  lg:px-24">
             <div className="px-10 lg:px-0">
-                <div className="flex gap-[65px] overflow-scroll lg:overflow-hidden items-center lg:justify-start">
-                    <ul className="flex whitespace-nowrap cursor-pointer gap-[18px] md:gap-[40px] lg:text-[20px] justify-center">
+                <div className="flex gap-[65px] overflow-scroll lg:overflow-visible items-center lg:justify-start">
+                    <ul className="flex whitespace-nowrap cursor-pointer gap-[20px] md:gap-[40px] lg:text-[20px] justify-center">
                         <li>Resturant</li>
                         <li>Cottage</li>
                         <li>Castle</li>
